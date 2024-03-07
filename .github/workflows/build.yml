@@ -106,7 +106,7 @@ jobs:
           skip_checkout: true
           file_pattern: build.md *-update.json
           commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-
+: <<'END_COMMENT'
       - name: Report to Telegram
         env:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
@@ -145,3 +145,4 @@ jobs:
           MSG=${MSG:0:9450}
           POST="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
           curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"
+END_COMMENT
