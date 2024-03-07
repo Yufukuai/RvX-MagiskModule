@@ -35,7 +35,7 @@ if [ -d revanced-magisk-module ]; then
 		cp -f ReX-MagiskModule/config.toml .
 		rm -rf ReX-MagiskModule
 		git clone https://github.com/Yufukuai/ReX-MagiskModule --recurse --depth 1
-		mv -f config.toml revanced-magisk-module/config.toml
+		mv -f config.toml ReX-MagiskModule/config.toml
 	fi
 else
 	pr "Cloning ReX-MagiskModule."
