@@ -118,6 +118,7 @@ for s in "uninstall.sh" "service.sh"; do
 	sed -i "2 i\NVBASE=${NVBASE}" $MODPATH/$s
 done
 
-ui_print "* Done"
-ui_print "  by j-hc (github.com/j-hc)"
+ui_print "* Done, IT'S NOT NECESSARY TO RESTART YOUR PHONE!"
+ui_print "  by Yufukuai (github.com/yufukuai)"
+ui_print "  Long live eXtended, and thanks inotia00 for your services"
 ui_print " "
