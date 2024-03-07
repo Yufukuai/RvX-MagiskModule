@@ -28,7 +28,7 @@ jobs:
             if [ "$UPDATE_CFG" ]; then
               echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
             else
-              echo "SHOULD_BUILD=0" >> $GITHUB_OUTPUT
+              echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
             fi
           fi
 
