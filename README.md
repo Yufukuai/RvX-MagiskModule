@@ -47,6 +47,6 @@ bash <(curl -sSf https://raw.githubusercontent.com/Yufukuai/ReX-MagiskModule/mai
 ### On Desktop
 ```console
 $ git clone https://github.com/Yufukuai/ReX-MagiskModule
-$ cd revanced-magisk-module
+$ cd ReX-MagiskModule
 $ ./build.sh
 ```
