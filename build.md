@@ -8,7 +8,7 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 [ReX-MagiskModule](https://github.com/Yufukuai/ReX-MagiskModule)  
 
 Changelog:  
-CLI: j-hc/revanced-cli-4.4.1-all.jar  
-Integrations: anddea/revanced-integrations-0.147.2.apk  
-Patches: anddea/revanced-patches-2.221.0.3.jar  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.221.0.3)  
+CLI: j-hc/revanced-cli-4.5.0-all.jar  
+Integrations: anddea/revanced-integrations-0.148.0.apk  
+Patches: anddea/revanced-patches-2.221.1.jar  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.221.1)  
